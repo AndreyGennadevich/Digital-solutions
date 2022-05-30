@@ -1,0 +1,30 @@
+.list {
+    list-style: none;
+    padding: 0;
+    border: 1px solid var(--black);
+}
+
+.listItem:not(:last-child) {
+    padding: 10px 18px;
+    font-size: 17px;
+    line-height: 23px;
+    border-bottom: 1px solid var(--black);
+}
+
+.listItem:hover {
+    background-color: #ECECEC;
+}
+
+.btn {
+    display: block;
+    height: 44px;
+    width: 176px;
+    margin: 0 auto;
+    border: none;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: var(--font-weight-semibold);
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 18px;
+    border: 1px solid var(--gray);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 36px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.name {
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+}
+
+.email {
+    display: block;
+    color: var(--gray);
+}
+
+.text {
+    margin: 0;
+    padding: 10px 36px;
+    font-size: 16px;
+}

@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 61px;
+    background-color: var(--bg-black);
+}
+
+.logo {
+    width: 175px;
+}
+
+.navBtn {
+    display: block;
+    padding: 12px 50px;
+    background-color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: 14px;
+    line-height: 17px;
+}

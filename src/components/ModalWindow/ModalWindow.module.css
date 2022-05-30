@@ -1,0 +1,89 @@
+.modalWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.modalWindow {
+    width: 450px;
+    padding: 20px;
+    background-color: var(--white);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.closeBtn {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-color: var(--black);
+    border: none;
+    border-radius: 50%;
+}
+
+.closeBtn svg {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.input,
+.textarea {
+    outline: none;
+}
+
+.input,
+.textarea {
+    padding: 10px 15px;
+    border: 1px solid var(--black);
+    color: var(--black);
+    font-family: var(--font-family-open);
+    font-weight: var(--font-weight-regular);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.textarea {
+    resize: none;
+}
+
+.input:focus,
+.textarea:focus {
+    background-color: #ECECEC;
+}
+
+.formBtn {
+    align-self: center;
+    padding: 14px 26px;
+    border: none;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: var(--font-weight-sevibold);
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}

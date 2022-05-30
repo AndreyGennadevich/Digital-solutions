@@ -1,0 +1,28 @@
+.listItem {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #DADADA;
+}
+
+.listItem:hover {
+    border: 1px solid var(--black);
+}
+
+.title {
+    margin: 0;
+    font-weight: var(--font-weight-bold);
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.itemBtn {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: 11px;
+    line-height: 15px;
+}

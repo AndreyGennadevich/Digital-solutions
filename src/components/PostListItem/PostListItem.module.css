@@ -1,0 +1,34 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 36px;
+    margin-bottom: 16px;
+    border: 1px solid var(--black);
+}
+
+.title {
+    margin: 0 0 4px 0;
+    font-weight: var(--font-weight-bold);
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.description {
+    margin: 0 0 12px 0;
+    color: var(--gray);
+    font-weight: var(--font-weight-regular);
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.link {
+    align-self: center;
+    padding: 14px 36px;
+    margin-left: 4px;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: 11px;
+    line-height: 15px;
+}

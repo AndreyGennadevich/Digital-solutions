@@ -1,0 +1,9 @@
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 36px;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
